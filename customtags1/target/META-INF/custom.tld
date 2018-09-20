@@ -1,0 +1,11 @@
+<tablib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>taglib</short-name>
+    <uri>http://kiayang.com/tags</uri>
+    <tag>
+        <name>hello</name>
+        <tag-class>com.kiayang.customtags.helloworld</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+</tablib>
