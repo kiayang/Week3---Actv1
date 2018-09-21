@@ -1,21 +1,21 @@
 # Week3-Activity 1 - Activity 1: First Custom Tag Lib
 Using the Custom Tag references in the syllabus and the following instructions create your first custom tag library. 
 
-***The four major steps are:***
-
-1. ***Create a first hello world custom tag handler.***
-2. ***Write the TLD.***
-3. ***Package the tag and tld into a jar.***
-4. ***Test the tag in a simple test application.***
+1. ***Do the following 3 steps to create the custom tag (this is in the taglib directory /project above)***
+   1. ***Create a first hello world custom tag handler.***
+   2. ***Write the TLD.*** (xml)
+   3. ***Package the tag and tld into a jar.*** (using MAVEN)
+2. ***Now write a simple 'hello world' web application (this is in the tagtest directory/project above) to test the custom tag***
+   1. ***Test the tag in a simple test application.***
 
 
 
 ***Create the hello world custom tag handler.***
 
-1. Create a new plain old java project. You can use the maven archetype: "maven-archetype-quickstart" which will package your code into a jar.
-2. Notice that the pom.xml's packaging type is jar.
+1. Create a new plain old java project. You can use the maven archetype: "**maven-archetype-quickstart**" which will package your code into a jar.
+2. Notice that the pom.xml's packaging type is **jar**.
 3. Add the jUnit 5 dependencies. You can find these in your week 2 exercise.
-4. Notice the src and test directories have been created for you along with some starter classes. You can delete those starter classes as we do not need them.
+4. Notice the src and test directories have been created for you along with some starter classes(i.e.. app/apptest classes). You can delete those starter classes as we do not need them.
 5. Create a new class to hold the java code for the HelloWorldTag. Make sure the class extends SimpleTagSupport.
 6. Notice that we need some of the javax.servlet packages. Add the appropriate dependency to your pom.xml to provide these packages. HINT: we've been using this dependency in almost every other exercise/activity this semester.
 7. Override the doTag() method with your own code.
